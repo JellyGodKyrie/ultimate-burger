@@ -1,0 +1,42 @@
+{
+    "env": {
+        "browser": true,
+        "jest": true,
+        "node": true
+    },
+    "extends": [
+        "airbnb",
+        "prettier",
+        "prettier/react"
+    ],
+    "rules": {
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ],
+        "prettier/prettier": [
+            "error",
+            {
+                "arrowParens": "always",
+                "bracketSpacing": true,
+                "trailingComma": "es5",
+                "singleQuote": false,
+                "printWidth": 120,
+                "tabWidth": 4
+            }
+        ],
+        "no-use-before-define": "off",
+        "no-param-reassign": "off",
+        "import/no-named-as-default": "off",
+        "import/no-named-as-default-member": "off",
+        "react/prefer-stateless-function": "off"
+    },
+    "plugins": [
+        "prettier"
+    ]
+}
