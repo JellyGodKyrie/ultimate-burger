@@ -36,7 +36,9 @@
         "import/no-named-as-default-member": "off",
         "react/prefer-stateless-function": "off",
         "react/prop-types": "off",
-        "react/destructuring-assignment": "off"
+        "react/destructuring-assignment": "off",
+        "react/button-has-type": "off",
+        "react/no-array-index-key": "warn"
     },
     "plugins": [
         "prettier"
