@@ -34,7 +34,9 @@
         "no-param-reassign": "off",
         "import/no-named-as-default": "off",
         "import/no-named-as-default-member": "off",
-        "react/prefer-stateless-function": "off"
+        "react/prefer-stateless-function": "off",
+        "react/prop-types": "off",
+        "react/destructuring-assignment": "off"
     },
     "plugins": [
         "prettier"
