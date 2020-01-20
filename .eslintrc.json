@@ -9,6 +9,7 @@
         "prettier",
         "prettier/react"
     ],
+    "parser": "babel-eslint",
     "rules": {
         "react/jsx-filename-extension": [
             1,
@@ -38,7 +39,9 @@
         "react/prop-types": "off",
         "react/destructuring-assignment": "off",
         "react/button-has-type": "off",
-        "react/no-array-index-key": "warn"
+        "react/no-array-index-key": "warn",
+        "react/state-in-constructor": "off",
+        "react/sort-comp": "off"
     },
     "plugins": [
         "prettier"
