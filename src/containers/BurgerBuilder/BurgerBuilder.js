@@ -37,6 +37,7 @@ class BurgerBuilder extends Component {
             .then((response) => {
                 this.setState({ ingredients: response.data });
             })
+            // eslint-disable-next-line no-unused-vars
             .catch((error) => {
                 this.setState({ error: true });
             });
@@ -118,6 +119,7 @@ class BurgerBuilder extends Component {
         }
         let orderSummary = null;
 
+        // eslint-disable-next-line react/no-unescaped-entities
         let burger = this.state.error ? <p>Ingredients can't be loaded!</p> : <Spinner />;
 
         if (this.state.ingredients) {

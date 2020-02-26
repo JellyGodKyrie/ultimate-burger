@@ -41,7 +41,8 @@
         "react/button-has-type": "off",
         "react/no-array-index-key": "warn",
         "react/state-in-constructor": "off",
-        "react/sort-comp": "off"
+        "react/sort-comp": "off",
+        "react/jsx-props-nospreading": "off"
     },
     "plugins": [
         "prettier"
