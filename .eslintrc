@@ -8,11 +8,8 @@
         "airbnb",
         "prettier",
         "prettier/react"
-        // "plugin:@typescript-eslint/recommended",
-        // "prettier/@typescript-eslint"
     ],
     "parser": "babel-eslint",
-    // "parser": "@typescript-eslint/parser",
     "settings": {
         "import/resolver": {
             "node": {
@@ -67,8 +64,19 @@
         ],
         "import/no-named-as-default": "off",
         "import/no-named-as-default-member": "off",
-        "react/prefer-stateless-function": "off"
-        // "react/prop-types": "off"
+        "react/prefer-stateless-function": "off",
+        "react/destructuring-assignment": "off",
+        "react/prop-types": "off",
+        "class-methods-use-this": "off",
+        "no-restricted-syntax": "off",
+        "react/no-access-state-in-setstate": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
+        "jsx-a11y/label-has-for": "off",
+        "jsx-a11y/no-static-element-interactions": "off",
+        "no-unused-vars": "off",
+        "guard-for-in": "off",
+        "no-shadow": "off"
+
     },
     "plugins": [
         "prettier"
